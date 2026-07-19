@@ -1,0 +1,15 @@
+
+/*картинка посередине*/
+img {
+    display: block;
+    margin: 0 auto ;
+}
+
+/*все остальное посередине*/
+h1, div {
+    text-align: center;
+}
+/*Шрифт*/
+.text {
+    font-size: 2em;
+}
