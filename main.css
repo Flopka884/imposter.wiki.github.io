@@ -1,0 +1,80 @@
+/*задний фон*/
+body {
+    background-color: #121212;
+    color : #e0e0e0;
+}
+/*картинка посередине*/
+img {
+    display: block;
+    margin: 0 auto ;
+}
+
+/*все остальное посередине*/
+h1, h2, div, p {
+    text-align: center;
+}
+/*Шрифт*/
+.text {
+    font-size: 1.2em;
+}
+/*большой шрифт*/
+.big_fonts {
+    font-size: 1.8em;
+}
+/*Мега заголовок*/
+.mega_h1 {
+    font-size: 4em;
+}
+/*Средний заголовок*/
+.middle_h1 {
+    font-size: 2.5em;
+}
+/*тонкий заголовок*/
+.thin_h1 {
+     font-weight: 300;
+}
+/*ссылка 1*/
+a {
+    color: #64B5F6;
+        text-decoration: underline;
+    text-decoration-color: #64B5F6;
+    cursor: pointer;
+}
+a:hover {
+    color: #90CAF9;
+    text-decoration: underline;
+    text-decoration-color: #90CAF9;
+    cursor: pointer;
+}
+a:active {
+    color: #609cd1;
+     text-decoration: underline;
+    text-decoration-color: #609cd1;
+    cursor: pointer;
+}
+/*ccылка 2*/
+.two {
+    color: #BB86FC;
+    cursor: pointer;
+}
+.two:hover {
+    color: #D7B7FD;
+    cursor: pointer;
+}
+.two:active {
+    color: #7C4DFF;
+    cursor: pointer;
+}
+/*ccылка 3*/
+.three {
+    color: #D4AF37;
+    cursor: pointer;
+}
+.three:hover {
+    color: #FFD700;
+    cursor: pointer;
+}
+.three:active {
+    color: #B8860B;
+    cursor: pointer;
+}
