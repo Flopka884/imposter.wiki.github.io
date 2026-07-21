@@ -1,4 +1,4 @@
-*задний фон 1 порядка*/
+/*задний фон 1 порядка*/
 #background {
     background: #121212;
     margin: 50px auto 50px;
@@ -204,11 +204,5 @@ a:active {
     color: #4fc3f7;
     text-decoration: underline;
     text-decoration-color: #4fc3f7;
-    cursor: pointer;
-}
-    cursor: pointer;
-}
-.three:active {
-    color: #B8860B;
     cursor: pointer;
 }
