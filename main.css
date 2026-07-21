@@ -206,3 +206,8 @@ a:active {
     text-decoration-color: #4fc3f7;
     cursor: pointer;
 }
+    color: #4fc3f7;
+    text-decoration: underline;
+    text-decoration-color: #4fc3f7;
+    cursor: pointer;
+}
