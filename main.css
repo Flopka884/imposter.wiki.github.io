@@ -1,7 +1,20 @@
-/*задний фон*/
+*задний фон 1 порядка*/
+#background {
+    background: #121212;
+    margin: 50px auto 50px;
+    width: 90%;
+    height: 2500px;
+    border: 5px solid #e0e0e0;
+    border-radius: 20px;
+    color: #e0e0e0;
+}
+/*задний фон 2 порядка*/
 body {
-    background-color: #121212;
-    color : #e0e0e0;
+    background-image: url('img/общий фон.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /*картинка посередине*/
 img {
@@ -23,7 +36,7 @@ h1, h2, div, p {
 }
 /*Мега заголовок*/
 .mega_h1 {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 /*Средний заголовок*/
 .middle_h1 {
@@ -33,10 +46,11 @@ h1, h2, div, p {
 .thin_h1 {
      font-weight: 300;
 }
-/*ссылка 1*/
+
+/*ссылка для всего*/
 a {
     color: #64B5F6;
-        text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #64B5F6;
     cursor: pointer;
 }
@@ -48,30 +62,150 @@ a:hover {
 }
 a:active {
     color: #609cd1;
-     text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #609cd1;
     cursor: pointer;
 }
-/*ccылка 2*/
-.two {
+
+/*ccылка для пвп*/
+.pvp {
+    color: #81C784;
+    text-decoration: underline;
+    text-decoration-color: #81C784;
+    cursor: pointer;
+}
+.pvp:hover {
+    color: #A5D6A7;
+    text-decoration: underline;
+    text-decoration-color: #A5D6A7;
+    cursor: pointer;
+}
+.pvp:active {
+    color: #4CAF50;
+    text-decoration: underline;
+    text-decoration-color: #4CAF50;
+    cursor: pointer;
+}
+
+/*ccылка для зомби и импа*/
+.imp {
+    color: #E57373;
+    text-decoration: underline;
+    text-decoration-color: #E57373;
+    cursor: pointer;
+}
+.imp:hover {
+    color: #EF9A9A;
+    text-decoration: underline;
+    text-decoration-color: #EF9A9A;
+    cursor: pointer;
+}
+.imp:active {
+    color: #EF5350;
+    text-decoration: underline;
+    text-decoration-color: #EF5350;
+    cursor: pointer;
+}
+
+/*ccылка для пряток и ученого*/
+.hide {
     color: #BB86FC;
+    text-decoration: underline;
+    text-decoration-color: #BB86FC;
     cursor: pointer;
 }
-.two:hover {
+.hide:hover {
     color: #D7B7FD;
+    text-decoration: underline;
+    text-decoration-color: #D7B7FD;
     cursor: pointer;
 }
-.two:active {
+.hide:active {
     color: #7C4DFF;
+    text-decoration: underline;
+    text-decoration-color: #7C4DFF;
     cursor: pointer;
 }
-/*ccылка 3*/
-.three {
+
+/*ссылка для мафии*/
+.mafia {
+    color: #F48FB1;
+    text-decoration: underline;
+    text-decoration-color: #F48FB1;
+    cursor: pointer;
+}
+.mafia:hover {
+    color: #F8BBD0;
+    text-decoration: underline;
+    text-decoration-color: #F8BBD0;
+    cursor: pointer;
+}
+.mafia:active {
+    color: #F06292;
+    text-decoration: underline;
+    text-decoration-color: #F06292;
+    cursor: pointer;
+}
+
+/*ccылка для охоты и инженера*/
+.hunt {
     color: #D4AF37;
+    text-decoration: underline;
+    text-decoration-color: #D4AF37;
     cursor: pointer;
 }
-.three:hover {
+.hunt:hover {
     color: #FFD700;
+    text-decoration: underline;
+    text-decoration-color: #FFD700;
+    cursor: pointer;
+}
+.hunt:active {
+    color: #B8860B;
+    text-decoration: underline;
+    text-decoration-color: #B8860B;
+    cursor: pointer;
+}
+
+/*ссылка для спасения*/
+.rescue {
+    color: #E0E0E0;
+    text-decoration: underline;
+    text-decoration-color: #E0E0E0;
+    cursor: pointer;
+}
+.rescue:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    cursor: pointer;
+}
+.rescue:active {
+    color: #BDBDBD;
+    text-decoration: underline;
+    text-decoration-color: #BDBDBD;
+    cursor: pointer;
+}
+
+/*ссылка для космонавтов*/
+.cre {
+    color: #81d4fa;
+    text-decoration: underline;
+    text-decoration-color: #81d4fa;
+    cursor: pointer;
+}
+.cre:hover {
+    color: #b3e5fc;
+    text-decoration: underline;
+    text-decoration-color: #b3e5fc;
+    cursor: pointer;
+}
+.cre:active {
+    color: #4fc3f7;
+    text-decoration: underline;
+    text-decoration-color: #4fc3f7;
+    cursor: pointer;
+}
     cursor: pointer;
 }
 .three:active {
